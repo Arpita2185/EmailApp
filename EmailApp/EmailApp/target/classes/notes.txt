@@ -1,0 +1,11 @@
+To Run application: 
+Run as --> Maven Build --> clean install
+
+Below jar file is generated:
+[INFO] Building jar: /home/ubuntu/Sandhya/PersonalWork/hibernate-jpa-spring-boot/hibernate-jpa/target/hibernate-jpa-0.0.1-SNAPSHOT.jar
+
+To Run jar file:
+java -jar hibernate-jpa-0.0.1-SNAPSHOT.jar
+
+For DB created data.sql file @resorces
+insert into person (id, name, location, Birth_date) values (10003, 'Sandhya','Mumbai',sysdate);  
